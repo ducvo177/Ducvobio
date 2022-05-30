@@ -6,23 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Võ Văn Đức</title>
     <link rel="shortcut icon" href="asset/img/avt2.jpg">
-    <link rel="stylesheet" href="asset/css/base.css">
-  <link rel="stylesheet" href="asset/css/main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
-  <link rel="stylesheet" href="asset/css/jav.js">   
+    <link rel="stylesheet" href="./asset/css/base.css">
+  <link rel="stylesheet" href="./asset/css/main.css">
+  <link rel="stylesheet" href="./WOW-master/css/libs/animate.css">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  
+
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         
-        <div class="heading">
-            
+        <div class="heading ">
+          
             <div class="heading__item">
-                <img class="heading__avt  heading__avt-popup" src="asset/img/avt.jpg" alt="avt">
-               <img src="asset/img/avt2.jpg" alt="avt2" class="heading__avt">
+                
+               <img src="asset/img/avt2.jpg" alt="avt2" class="heading__avt mx-auto d-block wow bounceInDown" data-wow-duration="2s">
             
-                <div class="heading__card">
+                <div class="heading__card mx-auto wow fadeInDown" data-wow-duration="2s">
                     <h3 class="heading__card-name">Võ Văn Đức</h3>
                     <h3 class="heading__card-nickname">(Đức Lãng Tử)</h3>
                     <a href="https://www.facebook.com/HocvienPTIT" class="heading__card-uni">
@@ -36,7 +37,7 @@
                    
                 </div>
                 
-               <div class="heading__social">
+               <div class="heading__social mx-auto wow fadeInDown" data-wow-duration="2s">
                    <h3 class="heading__social-heading">
                        Social
                    </h3>
@@ -73,7 +74,10 @@
                    </div>
                    
                  </div>
-                 <div class="heading__phone">
+
+               
+
+                 <div class="heading__phone mx-auto wow fadeInDown" data-wow-duration="2s">
                     <h3 class="heading__social-heading">
                     Phone
                     </h3>
@@ -95,31 +99,7 @@
                 </div>
                 
                 </div>
-                <div class="heading__bank">
-                    <h3 class="heading__social-heading">
-                        Phone
-                    </h3>
-                    <div class="heading__social-list">
-                        <div class="heading__social-item">
-                             <div class="heading__social-but">
-                             <img src="asset/img/vietcom.jpg" alt="Vietcom" class=" heading__social-img__circle">
-                             <div href="" class="heading__social-link">0691000434724
-                                 <h3 class="heading__social-tag">Vietcombank</h3>
-                             </div>
-                             
-                             </div>
-                             <div class="heading__social-but">
-                                <img src="asset/img/agri.png" alt="Agri" class=" heading__social-img__circle">
-                                <div href="" class="heading__social-link">1500206110848
-                                    <h3 class="heading__social-tag">Agribank</h3>
-                                </div>
-                                
-                                </div>
-                        </div>
-                       
-                       
-                    </div>
-            </div>
+                
                 
             </div>
             
@@ -135,6 +115,9 @@
 
         </div>
     </div>
-    
+    <script src="./WOW-master/dist/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </body>
 </html>
